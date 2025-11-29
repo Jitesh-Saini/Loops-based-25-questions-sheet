@@ -1,0 +1,112 @@
+ Basic Loop-Based Mathematical Questions
+ (Notepad + Copy)
+1. Print numbers from 1 to N (using for loop, while loop and do-while loop)
+Input: N
+ Output: 1 2 3 ... N
+
+2. Print sum of first N natural numbers(for loop, while loop and do-while loop)
+1+2+3+4+5+6
+Example: N=5 → Output: 15
+
+3. Print sum of even numbers from 1 to N (for loop while loop and do-while loop)
+Example: N=10 → 2+4+6+8+10 = 30
+
+4. Print sum of odd numbers from 1 to N( for loop while loop and do-while loop)
+Start value user input and End value hai wo bhi user input hoga
+Example: N=7 → 1+3+5+7 = 16
+
+5. Count digits in a number (while and do-while)
+Example: 4582 → 4 digits
+Best case : 1 
+Worst case:10^9 -1 
+Algorithmic time complexity derive  
+
+6. Reverse a number(check all the cases like succeeding zeros)
+(While loop and do-while loop) ⇒ (don’t change the data-type keep it integer)
+Example: 1234 → 4321
+1000 = = 0001 
+120500 = 005021 
+
+7. Check if a number is a palindrome ( using while and do-while loop )
+Example: 121 → palindrome
+
+8. Find factorial of a number (for loop while loop and do-while loop)
+Example: 5 → 120
+
+9. Print multiplication table of a number.(only with for loop )
+Example: N=7 → 7 14 21 … 70
+I = 1-15 and J = 1-10 
+1 * 1 = 1 
+1 * 2 = 2
+ 
+10. Print all divisors of a number (for while and do-while)
+Example: 12 → 1,2,3,4,6,12
+ 15 : 1, 3 ,5 , 15
+O(n)
+0(n/2) two pointer approach
+
+11. Check if the number is prime
+0(n)
+0(n/2)
+Sqrt of n
+Use loop to check divisibility.
+
+12. Print Fibonacci series up to N terms(for loop)
+0 1 1 2 3 5 8…
+
+13. Find power of a number using loop(for while and do-while)
+Example: 2^5 = 32 (no pow() allowed)
+
+14. Sum of digits of a number(do-while for while)
+Example: 789 → 7+8+9 = 24
+12345=1+2+3+45
+
+15. Product of digits of a number (for while do-while loop)
+Example: 345 → 3×4×5 = 60
+
+16. Find the largest digit of a number(while loop)
+Example: 6395 → largest = 9
+
+17. Find the smallest digit of a number(do-while loop)
+Example: 6395 → smallest = 3
+
+18. Check Armstrong number using loop
+Example: 153 → 1³+5³+3³ = 153
+
+19. Print numbers divisible by A and B between 1 to N
+Example: divisible by 3 & 5 → 15, 30, 45…
+Divisible by 4 and 16 
+
+20. Find GCD (HCF) of two numbers using loop
+
+
+21. Find the total count of 8 in a digit.
+
+22. Check if the number N is a power of 7 if it is then find which power? 
+
+23. Using ( for loop and while loop) iterate and start with 1 to nth number jump by 
+2
+4
+5
+6 
+8
+10
+
+
+
+
+
+24. Take a number from user add the first digit and last digit.
+153 =1 + 3 =4
+15935=1+5=6
+
+
+25. Take a number from user get the first digit and last digit 
+9533 = first number = 9
+          = last digit = 3
+For loop >> 1-9 
+     Run a for loop from 1 till first digit 
+Do-while 3-0
+     Run a do-while loop from last digit to 0. 
+
+
