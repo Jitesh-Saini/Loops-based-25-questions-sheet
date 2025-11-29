@@ -1,3 +1,11 @@
+// 9. Print multiplication table of a number.(only with for loop )
+// Example: N=7 → 7 14 21 … 70
+// I = 1-15 and J = 1-10 
+// 1 * 1 = 1 
+// 1 * 2 = 2
+
+
+
 #include <iostream>
 using namespace std;
 

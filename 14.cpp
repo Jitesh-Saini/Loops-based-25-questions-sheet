@@ -4,23 +4,47 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
-    int n, sum = 0;
+    int n;
+    cout << "Enter number: ";
     cin >> n;
-    while (n)
-    {
-        int digit=n%10;
-        sum+=digit;
-        n/=10;
 
+    int sum = 0;
+    int temp = n;
+
+    while (temp > 0)
+    {
+        int digit = temp % 10;
+        sum += digit;
+        temp /= 10;
     }
-    // int temp=n;
-    // for (int i = 0; i <= n; i++)
+    cout << "Sum using while loop: " << sum << endl;
+
+    // sum = 0;
+    // temp = n;
+    // for (; temp > 0; temp /= 10)
     // {
     //     int digit = temp % 10;
     //     sum += digit;
-    //     temp /= 10;
     // }
-    cout << sum;
+    // cout << "Sum using for loop: " << sum << endl;
+
+    // sum = 0;
+    // temp = n;
+
+    // if (temp > 0)
+    // { // edge case: n = 0, loop won't run unless checked
+    //     do
+    //     {
+    //         int digit = temp % 10;
+    //         sum += digit;
+    //         temp /= 10;
+    //     } while (temp > 0);
+    // }
+
+    // cout << "Sum using do-while loop: " << sum << endl;
+
+    return 0;
 }

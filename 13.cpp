@@ -3,6 +3,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
     int a, b;
@@ -10,10 +11,31 @@ int main()
     cin >> a;
     cout << "Enter b: ";
     cin >> b;
+
     int power = 1;
-    for (int i = 1; i <= b; i++)
-    {
+    for (int i = 1; i <= b; i++) {
         power = power * a;
     }
-    cout<<"Result: "<< power << endl;
+    cout << "Result using for loop: " << power << endl;
+
+
+    // power = 1;
+    // int i = 1;
+    // while (i <= b) {
+    //     power = power * a;
+    //     i++;
+    // }
+    // cout << "Result using while loop: " << power << endl;
+
+
+    // power = 1;
+    // i = 1;
+    // do {
+    //     power = power * a;
+    //     i++;
+    // } while (i <= b);
+
+    // cout << "Result using do-while loop: " << power << endl;
+
+    return 0;
 }

@@ -19,16 +19,15 @@ int main()
         }
     }
 
-    //Slightly better O(n/2) method
-    // for (int i = 2; i <= n / 2; i++)
-    // {
-    //     if (n % i == 0)
-    //     {
-    //         isPrime = false;
-    //         break;
-    //     }
-    // }
-
+    // Slightly better O(n/2) method
+    //  for (int i = 2; i <= n / 2; i++)
+    //  {
+    //      if (n % i == 0)
+    //      {
+    //          isPrime = false;
+    //          break;
+    //      }
+    //  }
 
     // Optimized O(√n) method
     // for (int i = 2; i * i <= n; i++)
@@ -44,4 +43,6 @@ int main()
         cout << "prime";
     else
         cout << "not prime";
+
+        return 0;
 }
